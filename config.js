@@ -25,12 +25,12 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
 
 // Owner
 global.owner = [
-  ['6281977815539'],
-  ['6281977815539'],
-  ['6281977815539', 'Myuko Dev', 'myukodev@gmail.com', true]
+  ['62881024233402'],
+  ['6282123611559'],
+  ['6288272086349', 'Shiroine', 'ilonajanniekaitlyn@gmail.com', true]
 ] // Put your number here
-global.mods = ['6281977815539'] // Moderator
-global.prems = ['6281977815539'] // Premium
+global.mods = ['62881024233402'] // Moderator
+global.prems = ['6288272086349'] // Premium
 global.APIs = { // API Prefix
   // name: 'https://website'
   nrtm: 'https://nurutomo.herokuapp.com',
@@ -70,8 +70,8 @@ process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0
 const spack = fs.readFileSync("lib/exif.json")
 const stickerpack = JSON.parse(spack)
 if (stickerpack.spackname == '') {
-  var sticker_name = 'Myuko - Dev\n\nNomor Bot: KAMU NANYEA?'
-  var sticker_author = 'Myuko Developer'
+  var sticker_name = 'Sticker By Clara-AI'
+  var sticker_author = 'Owner :\n+62881024233402'
 } else {
   var sticker_name = stickerpack.spackname
   var sticker_author = stickerpack.sauthor
@@ -88,9 +88,9 @@ fs.watchFile(file_exif, () => {
 // Database
 global.version = '1.1.7'
 global.sessionName = 'Reel' //Gak Usah Diganti, Nanti Error🗿
-global.gcbot = 'https://chat.whatsapp.com/H56akrU9veZKgtZUwnPFRf'
-global.instagram = 'https://instagram.com/xyx.velix_'
-global.namebot = 'Yaomi Botz'
+global.gcbot = 'https://chat.whatsapp.com/I1ucFecSWvVFfe2X0HSyCd'
+global.instagram = 'https://instagram.com/justto.39_'
+global.namebot = 'Clara-AI'
 global.giflogo = 'https://telegra.ph/file/d99857d74715351bdcd6c.mp4'
 global.thumb = 'https://telegra.ph/file/aa3a70b623d6ae81a8f60.jpg'
 global.thumbnail = 'https://telegra.ph/file/aa3a70b623d6ae81a8f60.jpg'
@@ -98,21 +98,21 @@ global.giflogo2 = 'https://telegra.ph/file/d99857d74715351bdcd6c.mp4'
 global.qris = 'https://telegra.ph/file/aa3a70b623d6ae81a8f60.jpg'
 
 // Sosial Media
-global.sig = 'https://instagram.com/xyx.velix_'
-global.syt = 'https://youtube.com/@myukonet.'
+global.sig = 'https://instagram.com/justto.39_'
+global.syt = 'https://youtube.com/@rextc6995'
 global.sgh = 'https://github.com/Skybot01'
-global.sgc = 'https://chat.whatsapp.com/DuCUqa4AaEzHALOAEXwFUD'
-global.swa = 'https://wa.me/+6281977815539'
+global.sgc = 'https://chat.whatsapp.com/I1ucFecSWvVFfe2X0HSyCd'
+global.swa = 'https://wa.me/+62881024233402'
 global.swb = 'https://discord.gg/-' // Link Discord
 global.snh = 'https://nhentai.net/g/365296/' // Link nhentai
 
 // Pembayaran
-global.pdana = '081977815539'
-global.povo = '081977815539'
-global.pgopay = '081977815539'
-global.pulsa = '081977815539'
-global.pulsa2 = '081977815539'
-global.psaweria = 'https://saweria.co/myukonet'
+global.pdana = '0881024233402'
+global.povo = '0881024233402'
+global.pgopay = '0881024233402'
+global.pulsa = '0881024233402'
+global.pulsa2 = '0881024233402'
+global.psaweria = 'https://saweria.co/Tomaja'
 global.ptrakteer = 'https://trakteer.id/'
 global.psbuzz = 'https://socialbuzz.com/'
 
@@ -126,16 +126,16 @@ global.useMulti = false
 global.packname = sticker_name
 global.author = sticker_author
 global.wm = 'The Best Rpg Bot'
-global.wm2 = 'Yaomi Botz'
+global.wm2 = 'Clara-AI'
 global.bottime = `Time: ${wktuwib}`
 global.botdate = `Date: ${week} ${date}\nTime: ${wktuwib}`
 global.titlebot = `${global.wm}`
 global.danied = '✘ AKSES DITOLAK'
 global.packname = sticker_name
 global.author = sticker_author
-global.ultahowner = '20 januari 2023'
-global.nomorown = '6281977815539'
-global.nameown = 'Myuko Developer'
+global.ultahowner = '1 july 2024'
+global.nomorown = '62881024233402'
+global.nameown = 'Shiroine'
 global.wait = '_Chotto matte kudasai..._'
 global.wait2 = '*❗konten berbau 18+*\n_Jika ini di grup saya akan kirim di private chat, Please cek pesan bot!_'
 
